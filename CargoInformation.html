@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+ 
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title >EDI System</title>
+	  <link rel="stylesheet" type="text/css" href="jqueryslidemenu.css" />
+	  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+	 <script type="text/javascript" src="jqueryslidemenu.js"></script>
+	  <link href="style.css" rel="stylesheet" type="text/css" />
+		<SCRIPT Language="JavaScript">			
+		</SCRIPT>
+   </head>   
+<body>
+
+<div id="container">
+  <div id="banner">
+  </div>
+  <br/>
+  	<div style="margin-top: -17px; background-color: #1a575c" id="myslidemenu" class="jqueryslidemenu">
+		<ul>
+		<li><a href="#">Home</a>
+		</li>
+		<li><a href="#">Search</a>
+			<ul>
+				<li><a href="CargoInfo.html">Cargo Information</a>					
+				</li>
+				<li><a href="ShippingInfo.html">Shipping Information</a>		
+				</li>
+			</ul>
+		</li>	
+		</ul>
+		<div align='right' style='height:15px; line-height:30px;'>
+		<a href = "login.html">Logout</a>
+		</div>
+		<br style="clear: left" />
+	</div>
+	<!--<table style="width: 100%;" align="center">
+		<tr>
+		<td width="80%"><p>adfsdf</p></td>
+		<td width="20%">
+			<img border="0" src="C:\Users\BI3-2\Desktop\EDI\EDI SYS_html\images\mpa.jpg" alt="mpa logo" width="304" height="228"> </td>
+		</tr>
+	</table> -->
+	<form id='homeForm'>
+	<div class="homediv">
+	 <div class="homeleftcol">
+		<div id="panelBox">
+		<h3> Cargo Information</h3>
+		</div>
+		<table align="center">
+				<tr>
+					<td height="40px">Name</td>
+					<td><select style="width:155px">
+							<option>PO00128082013</option>
+							<option>PO00228082013</option>
+							<option>PO00328082013</option>
+							<option>PO00428082013</option>
+					</select></td>
+					<td width='30px'></td>
+					<td height="40px">Time</td>
+					<td><select style="width: 100px">
+							<option value="Hlaing Thar Yar" onClick="selectValue(this, this.form)">L001</option>
+							<option value="Thanlyin" onClick="selectValue(this, this.form)">L002</option>
+							<option value="Insein" onClick="selectValue(this, this.form)">L003</option>
+							<option value="Sanchaung" onClick="selectValue(this, this.form)">L004</option>
+					</select></td>
+					<td>~</td>
+					<td><select style="width:0.............................. 100px">
+							<option value="Hlaing Thar Yar" onClick="selectValue(this, this.form)">L001</option>
+							<option value="Thanlyin" onClick="selectValue(this, this.form)">L002</option>
+							<option value="Insein" onClick="selectValue(this, this.form)">L003</option>
+							<option value="Sanchaung" onClick="selectValue(this, this.form)">L004</option>
+					</select></td>
+					<td><input type="button" name="search" value="Search"></td>
+				</tr>
+			</table>
+			<h4>Search Result</h4> <span class="pager"><a href="#">Next</a>&nbsp;&nbsp;&nbsp;<a href="#">Prev</a></span>
+	 </div>
+		
+		<div class='searchResult'>
+		<table id="dataTable" border="1" style='border: 1px solid black;'">
+				<tr>
+					<th style='background-color: #D9D9D9;'>Cargo Number</th>
+					<th style='background-color: #D9D9D9;'>Ship Name</th>
+					<th style='background-color: #D9D9D9;'>Berth Code</th>
+					<th style='background-color: #D9D9D9;'>Landing Date</th>
+					<th style='background-color: #D9D9D9;'>Carry Out Wether</th>
+					<th style='background-color: #D9D9D9;'>Delivery Order</th>
+					<th style='background-color: #D9D9D9;'>Customs Permission</th>
+					<th style='background-color: #D9D9D9;'>Inspection Fee</th>
+					<th style='background-color: #D9D9D9;'>Carry in</th>
+				</tr>
+					<tr style="text-align='center';">
+						<td><center>O</center></td>
+						<td><center>ABCD12</center></td>
+						<td><center><div class="data"><a href="#">AAA</a></div><center></td>
+						<td><center>A1</center></td>
+						<td><center>2014/4/25</center></td>
+						<td><center>O</center></td>
+						<td><center>O</center></td>
+						<td><center>O</center></td>
+						<td><center>O</center></td>
+					</tr>
+
+					<tr>
+						<td><center>X</center></td>
+						<td><center>EFGHI34</center></td>
+						<td><center><div class="data"><a href="#">BBB</a></div></center></td>
+						<td><center>B2</center></td>
+						<td><center>2014/4/28</center></td>
+						<td><center>X</center></td>
+						<td><center>X</center></td>
+						<td><center>X</center></td>
+						<td><center>X</center></td>
+					</tr>
+
+					<tr>
+						<td><center>X</center></td>
+						<td><center>IJKLM56</center></td>
+						<td><center><div class="data"><a href="#">CCC</a></div></center></td>
+						<td><center>C3</center></td>
+						<td><center>2014/4/28</center></td>
+						<td><center>X</center></td>
+						<td><center>O</center></td>
+						<td><center>O</center></td>
+						<td><center>O</center></td>
+					</tr>
+				</table>
+			</div>
+	</div>
+	
+	</form>
+	<br/><br/><br/><br/><br/><br/><br/>
+	<div style="height:50px;background-color:#1a575c;padding-top:20px">
+		<center><font color='black'>Copyright© 2013-2014 ACE Data Systems</font></center>
+	</div>	
+</body>
+</html>

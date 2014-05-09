@@ -1,0 +1,247 @@
+body {
+padding : 0;
+margin : 0 auto;
+font : 75% tahoma, "Trebuchet MS", sans-serif;
+line-height : 1.5em;
+background : #A59F9F;
+color : black;
+width : 960px;
+}
+
+#container {
+width : 960px;
+margin : 0 auto;
+padding : 0;
+border: 1px solid #fff;
+background-color: #F7F2F2;
+}
+			/*BANNER*/
+#banner {
+padding : 0;
+margin-top : 0;
+height : 116px;
+width: 960px;
+background : #2F8781 url(images/edi_banner.jpg) no-repeat right center;
+}
+#banner h1 {
+float : right;
+margin-top : 0;
+letter-spacing : 3px;
+font-size : 130%;
+padding : 50px 50px 0 0;
+color : #000;
+}
+			/*TOP NAV*/
+#navbar ul {
+float : left;
+width : 760px;
+padding : 0;
+margin : 0;
+list-style-type : none;
+font-size : 110%;
+text-align : left;
+border-top : 5px solid #fff;
+border-bottom : 5px solid #fff;
+background : #5a8f57;
+color : #000;
+
+}
+#navbar a {
+float : left;
+width : 6em;
+text-decoration : none;
+color : #000;
+background : #92cc8f url(images/square.gif) no-repeat left center;
+padding : 0.5em 1em;
+}
+#navbar a:hover {
+background : #5a8f57 url(images/square.gif) no-repeat left center;
+color : #fff;
+}
+#navbar li {
+display : inline;
+}
+			/*MAIN CONTENT*/
+#content {
+width: 500px;
+padding : 1em;
+margin-left : 230px;
+}
+			/*SIDEBAR*/
+#sidebar {
+float : left;
+width : 200px;
+padding : 1em;
+margin-top : 0;
+}
+			/*BOTTOM*/
+#bottom {
+clear : both;
+height : 200px;
+padding : 5px;
+margin-top : 5px;
+margin-bottom : 35px;
+background : inherit;
+}
+			/*FOOTER*/
+#footer h1 {
+letter-spacing : 2px;
+font-size : 110%;
+margin-left : 40px;
+color : #c7d9c3;
+}
+#footer p {
+font-size : 90%;
+padding : 0 0 0 10px;
+color : #c7d9c3;
+}
+#footer {
+padding : 5px;
+margin-top : 5px;
+border-top : 5px solid #fff;
+background : #5a8f57;
+}
+#footer a, a:visited {
+color : #333;
+background : inherit;
+text-decoration : underline;
+}
+#footer a:hover {
+color : #92cc8f;
+background : inherit;
+text-decoration : none;
+}
+			/*FOOTER COLUMNS*/
+.col3, .col3center {
+float : left;
+width : 33%;
+margin-bottom : 20px;
+}
+.col3center {
+margin : 0;
+}
+			/*LINKS*/
+a:link, a:visited {
+color : #ffffff;
+background : inherit;
+text-decoration : none;
+}
+a:hover {
+color : #5a8f57;
+background : inherit;
+text-decoration : none;
+}
+a img {
+border: 0;
+}
+ul li {
+list-style-type : none;
+}
+.navlist ul li {
+list-style-image : url(images/square.gif);
+padding-left : 5px;
+margin-bottom : 0;
+}
+			/*TYPOGRAPHY*/
+h2 {
+letter-spacing : 1px;
+font-size : 130%;
+padding : 10px;
+color : #2F8781;
+font : tahoma, "Trebuchet MS", sans-serif;
+}
+blockquote {
+padding : 5px;
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+			/*CLASS*/
+.imgleft {
+float : left;
+padding : 10px;
+}
+.clear {
+clear : both;
+overflow : hidden;
+width : 0;
+height : 1px;
+}
+		/*TABLE*/
+/*table, td, th
+{
+border:1px solid black;
+}*/
+
+#panelBox{
+	border:1px solid;
+	border-radius:25px;
+	/*background-color:#60CEC7*/
+	/*box-shadow: 10px 10px 5px #888888;*/
+}
+
+/* adding */
+.homediv
+{	padding: 20px;
+	width: auto;
+	height: 250px;
+}
+.homeleftcol
+{
+	width: 600px;
+	float:left;
+	text-align: justify;
+}
+.homerightcol
+{
+	width : 350px;
+	float:left;
+}
+.homeimg
+{ 
+ background-image : url(images/mpa.jpg) no repeat;
+}
+
+#panelBox{
+	border:1px solid black;
+	width: 830px;
+	border-radius:5px;
+	background-color: #D9D9D9;
+}
+
+.data a:link {font-family:Arial; color:blue; text-decoration:none}
+
+.data a:visited {font-family:Arial; color:red; text-decoration:none}
+
+.pager a:link {font-family:Arial; color:blue; text-decoration:none}
+
+.pager a:visited {font-family:Arial; color:red; text-decoration:none}
+
+.pager {
+	position:absolute;
+	left:1100px;
+	top:290px;
+}
+
+.searchResult table{
+	display: table;
+	border: 1px solid black;
+	width: 80%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.searchResult th, .searchResult td {
+        padding: 2px 4px 2px 4px !important;
+        text-align: center;
+        vertical-align: top;
+        border: 1px solid black;
+}
+
+.searchResult tr {
+        background-color: white;
+        text-align:left;
+        border: 1px solid black;
+}
+
+#

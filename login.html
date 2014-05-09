@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+ 
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title >EDI System</title>
+	  <link rel="stylesheet" type="text/css" href="jqueryslidemenu.css" />
+	  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script> -->
+	
+	  <link href="style.css" rel="stylesheet" type="text/css" />
+		<SCRIPT Language="JavaScript">
+			function redirect(f){
+			if(f.user.value != '' && f.pwd.value != ''){
+					if(f.user.value == 'user' && f.pwd.value == 'ace') {
+						window.location="home.html";
+					} else {
+						window.location="CargoInformation.html";
+					}
+				}
+			}
+		</SCRIPT>
+   </head>
+   
+<body>
+<form id='loginForm'>
+ <div id="container">
+  <div id="banner">
+  </div>
+  <hr style="margin-top: 1px">
+	<div style="padding-top:100px">
+		<table style="width: 400px;" align="center">
+			<tr style="background-color: #D9D9D9;"> 
+				<td colspan = '2' >
+					<center><h2>Login</h2></center>
+				</td>
+			</tr>
+			<tr height="6px"></tr>
+			<tr>
+				<td width='40%' align="right">Username </td>
+				<td align='left'><input type='text' name="user" size='19'/></td>
+			</tr>
+			<tr height="6px"></tr>
+			<tr>
+				<td width='40%' align="right">Password </td>
+				<td align='left'><input type='password' name="pwd" size='20'/></td>
+			</tr>
+			<tr height="6px"></tr>
+			<tr >	
+				<td></td>
+				<td>
+					<input type='button' name='login' value='Login' onclick="redirect(this.form);"/>
+					<input type='reset' name='cancel' value='Cancel' 	style="margin-left:20px"/>
+				</td>
+			</tr>
+			<tr height="6px"></tr>
+			<tr>
+				<td colspan="2"><hr color="#2F8781" /></td>
+			</tr>
+		</table>
+	</div>
+ 
+
+	
+	<br/><br/><br/><br/><br/><br/><br/>
+	<div style="height:50px;background-color:#1a575c;padding-top:20px">
+		<center><font color='black'>Copyright© 2013-2014 ACE Data Systems</font></center>
+	</div>	
+</body>
+</html>
